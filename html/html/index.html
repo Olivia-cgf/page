@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       html,body{background: #0a154c;width:100%;height: 100%;overflow: hidden;overflow-x:auto;}
+       body,html,img{border:0;padding:0;margin:0;}
+       .container{overflow: hidden;height: 100%;}
+       img{display: block;width:100%;}
+       .page{
+          position: relative;
+          float: left;
+       }
+       .introduce{
+           width: 80%;
+           height: 80%;
+           position: absolute;
+           left: 0;
+           top: 0;
+           bottom: 0;
+           right: 0;
+           margin: auto;
+           background: rgb(112, 123, 181,0.4);
+           border-radius: 5px;
+           display: none;
+       }
+       .title{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .content{
+        padding: 20px;
+        color: #fff;
+        }
+        .fixed{
+            position: fixed;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed">
+            <div id="box"></div>
+    </div>
+       
+    <div class="container">
+        <div class="page">
+            <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-01.gif" alt="">
+            <div class="introduce">
+                    <h2 class="title">研发部招聘</h2>
+                    <div class="content">
+                        1.上海招聘;<br/>
+                        2.上海招聘;<br/>
+                        3.上海招聘;<br/>
+                        4.上海招聘;<br/>
+                    </div>
+            </div>
+        </div>
+        <div class="page">
+            <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-02.gif" alt="">
+            <div class="introduce">
+                    <h2 class="title">研发部招聘</h2>
+                    <div class="content">
+                        1.上海招聘;<br/>
+                        2.上海招聘;<br/>
+                        3.上海招聘;<br/>
+                        4.上海招聘;<br/>
+                    </div>
+            </div>
+        </div> 
+        <div class="page">
+                <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-03.gif" alt="">
+                <div class="introduce">
+                        <h2 class="title">研发部招聘</h2>
+                        <div class="content">
+                            1.上海招聘;<br/>
+                            2.上海招聘;<br/>
+                            3.上海招聘;<br/>
+                            4.上海招聘;<br/>
+                        </div>
+                </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-04.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-05.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-06.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-07.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-09.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+        <div class="page">
+                    <img src="../img/横版-h5（添加屏幕尺寸）-分屏幕-08.gif" alt="">
+                    <div class="introduce">
+                            <h2 class="title">研发部招聘</h2>
+                            <div class="content">
+                                1.上海招聘;<br/>
+                                2.上海招聘;<br/>
+                                3.上海招聘;<br/>
+                                4.上海招聘;<br/>
+                            </div>
+                    </div>
+        </div> 
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+        var clientWidth = $(document).width();
+        var clientHeight = $(window).height();
+        
+        $(".container .page").css("width", clientWidth);
+        $(".container .page").css("height", clientHeight);
+        $(".container").css("width", clientWidth*9);
+
+         //点击页面显示相应的职位
+        var off = false;
+        $(".page").click(function(){
+            if(off){
+                $(this).find(".introduce").fadeOut();
+                off = false;
+            }else {
+                $(this).find(".introduce").fadeIn();
+                off = true;
+            }
+            
+        })
+ 
+        var xhr;
+        xhr = new XMLHttpRequest();
+        xhr.onreadystatechange=function() {
+            if (xhr.readyState==4 && xhr.status==200) {
+                document.getElementById("box").innerHTML= xhr.responseText};
+        };
+        xhr.open("post","http://localhost:8080/form",true);
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xhr.send(null);
+    </script>
+</body>
+</html>
